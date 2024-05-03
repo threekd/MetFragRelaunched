@@ -24,23 +24,8 @@
 				<ui:include src="includes/main.xhtml" />
 			</ui:insert>
 		</div>
-
-		<div id="footer">
-			<ui:insert name="footer">
-				<ui:include src="includes/footer.xhtml" />
-			</ui:insert>
-		</div>
-		
-		<h:outputText id="hostname" value="#{metFragWebBean.serverPlusVersion}" 
-				style="color: black; opacity: 0.2; position: absolute; display: block; left: 5px; bottom: 305px;" 
-		/>
 	</h:panelGroup>
-	
-	<ui:insert name="feedback">
-		<ui:include src="includes/dialogs/feedbackButtonDialog.xhtml" />
-		<ui:include src="includes/dialogs/feedbackDialog.xhtml" />
-		<ui:include src="includes/dialogs/aboutDialog.xhtml" />		
-	</ui:insert>
+
 </h:body>
 
 </html>
